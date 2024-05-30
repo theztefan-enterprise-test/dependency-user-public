@@ -1,0 +1,11 @@
+name: Hello, hello workflow
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Say hello
+      run: echo Hello, world!
