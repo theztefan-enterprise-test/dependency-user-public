@@ -1,0 +1,3 @@
+[submodule "lib/submodule-library-public"]
+	path = lib/submodule-library-public
+	url = git@github.com:theztefan-enterprise-test/submodule-library-public.git

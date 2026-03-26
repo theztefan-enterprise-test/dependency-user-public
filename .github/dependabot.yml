@@ -1,0 +1,10 @@
+# Test: SSH submodule on PUBLIC repo - expected to FAIL
+version: 2
+updates:
+  - package-ecosystem: gitsubmodule
+    directory: /
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "[gitsubmodule] "
