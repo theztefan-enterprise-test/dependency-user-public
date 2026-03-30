@@ -14,5 +14,5 @@ permissions:
 
 jobs:
   dependency-review:
-    uses: 'theztefan-enterprise-test/dependency-review-config/.github/workflows/dependency-review-reusable.yml@main'
+    uses: 'theztefan-enterprise-test/dependency-review-config-public/.github/workflows/dependency-review-reusable.yml@main'
     secrets: inherit
